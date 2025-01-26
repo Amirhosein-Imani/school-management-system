@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import Menu from "@/components/Menu"
 
 export default function DashboardLayout({
   children,
@@ -13,7 +14,7 @@ export default function DashboardLayout({
 
       {/* LEFT */}
 
-      <div className="w-[14%] md:w-[8%] lg:w-[16%] xl:w-[14%] bg-red-200 p-4">
+      <div className="w-[14%] md:w-[8%] lg:w-[16%] xl:w-[14%] p-4">
 
         <Link href="/" className="flex items-center justify-center lg:justify-start gap-2">
         
@@ -22,6 +23,8 @@ export default function DashboardLayout({
           <span className="hidden lg:block">Amirhosein Imani</span>
         
         </Link>
+
+        <Menu />
 
       </div>
 
