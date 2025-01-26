@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import Menu from "@/components/Menu"
+import Navbar from "@/components/Navbar";
 
 export default function DashboardLayout({
   children,
@@ -18,7 +19,7 @@ export default function DashboardLayout({
 
         <Link href="/" className="flex items-center justify-center lg:justify-start gap-2">
         
-          <Image src="/Amirhosein-Imani.png" alt="Amirhosein Imani" width={32} height={32} />
+          <Image src="/Amirhosein-Imani.png" alt="Amirhosein Imani" width={32} height={32} className="rounded-full" />
 
           <span className="hidden lg:block">Amirhosein Imani</span>
         
@@ -30,9 +31,10 @@ export default function DashboardLayout({
 
       {/* RIGHT */}
 
-      <div className="w-[86%] md:w-[92%] lg:w-[84%] xl:w-[86%] bg-blue-200">
+      <div className="w-[86%] md:w-[92%] lg:w-[84%] xl:w-[86%] bg-[#F7F8FA] overflow-scroll">
 
-        RIGHT
+        <Navbar />
+        {children}
 
       </div>
       
