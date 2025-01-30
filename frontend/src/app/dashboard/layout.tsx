@@ -21,7 +21,7 @@ export default function DashboardLayout({
         
           <Image src="/Amirhosein-Imani.png" alt="Amirhosein Imani" width={32} height={32} className="rounded-full" />
 
-          <span className="hidden lg:block">Amirhosein Imani</span>
+          <span className="hidden lg:block font-bold">Amirhosein Imani</span>
         
         </Link>
 
