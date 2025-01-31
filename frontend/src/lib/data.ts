@@ -917,147 +917,114 @@ export const announcementsData = [
 
 
 // YOU SHOULD CHANGE THE DATES OF THE EVENTS TO THE CURRENT DATE TO SEE THE EVENTS ON THE CALENDAR
+
 export const calendarEvents = [
   {
     title: "Math",
     allDay: false,
-    start: new Date(2024, 7, 12, 8, 0),
-    end: new Date(2024, 7, 12, 8, 45),
+    start: new Date(2025, 0, 27, 8, 0, 0), // January 27, 2025, 8:00 AM
+    end: new Date(2025, 0, 27, 10, 0, 0),  // January 27, 2025, 10:00 AM
   },
   {
     title: "English",
     allDay: false,
-    start: new Date(2024, 7, 12, 9, 0),
-    end: new Date(2024, 7, 12, 9, 45),
+    start: new Date(2025, 0, 27, 11, 0, 0), // January 27, 2025, 11:00 AM
+    end: new Date(2025, 0, 27, 13, 0, 0),   // January 27, 2025, 1:00 PM
   },
   {
     title: "Biology",
     allDay: false,
-    start: new Date(2024, 7, 12, 10, 0),
-    end: new Date(2024, 7, 12, 10, 45),
+    start: new Date(2025, 0, 27, 14, 0, 0), // January 27, 2025, 2:00 PM
+    end: new Date(2025, 0, 27, 16, 0, 0),   // January 27, 2025, 4:00 PM
   },
   {
     title: "Physics",
     allDay: false,
-    start: new Date(2024, 7, 12, 11, 0),
-    end: new Date(2024, 7, 12, 11, 45),
+    start: new Date(2025, 0, 27, 17, 0, 0), // January 27, 2025, 5:00 PM
+    end: new Date(2025, 0, 27, 19, 0, 0),   // January 27, 2025, 7:00 PM
   },
   {
     title: "Chemistry",
     allDay: false,
-    start: new Date(2024, 7, 12, 13, 0),
-    end: new Date(2024, 7, 12, 13, 45),
+    start: new Date(2025, 0, 28, 13, 0, 0), // January 28, 2025, 1:00 PM
+    end: new Date(2025, 0, 28, 13, 45, 0),  // January 28, 2025, 1:45 PM
   },
   {
     title: "History",
     allDay: false,
-    start: new Date(2024, 7, 12, 14, 0),
-    end: new Date(2024, 7, 12, 14, 45),
+    start: new Date(2025, 0, 28, 14, 0, 0), // January 28, 2025, 2:00 PM
+    end: new Date(2025, 0, 28, 14, 45, 0),  // January 28, 2025, 2:45 PM
   },
   {
     title: "English",
     allDay: false,
-    start: new Date(2024, 7, 13, 9, 0),
-    end: new Date(2024, 7, 13, 9, 45),
+    start: new Date(2025, 0, 29, 9, 0, 0),  // January 29, 2025, 9:00 AM
+    end: new Date(2025, 0, 29, 9, 45, 0),   // January 29, 2025, 9:45 AM
   },
   {
     title: "Biology",
     allDay: false,
-    start: new Date(2024, 7, 13, 10, 0),
-    end: new Date(2024, 7, 13, 10, 45),
+    start: new Date(2025, 0, 29, 10, 0, 0), // January 29, 2025, 10:00 AM
+    end: new Date(2025, 0, 29, 10, 45, 0),  // January 29, 2025, 10:45 AM
   },
   {
     title: "Physics",
     allDay: false,
-    start: new Date(2024, 7, 13, 11, 0),
-    end: new Date(2024, 7, 13, 11, 45),
+    start: new Date(2025, 0, 29, 11, 0, 0), // January 29, 2025, 11:00 AM
+    end: new Date(2025, 0, 29, 11, 45, 0),  // January 29, 2025, 11:45 AM
   },
-
   {
     title: "History",
     allDay: false,
-    start: new Date(2024, 7, 13, 14, 0),
-    end: new Date(2024, 7, 13, 14, 45),
+    start: new Date(2025, 0, 29, 14, 0, 0), // January 29, 2025, 2:00 PM
+    end: new Date(2025, 0, 29, 14, 45, 0),  // January 29, 2025, 2:45 PM
   },
   {
     title: "Math",
     allDay: false,
-    start: new Date(2024, 7, 14, 8, 0),
-    end: new Date(2024, 7, 14, 8, 45),
+    start: new Date(2025, 0, 30, 8, 0, 0),  // January 30, 2025, 8:00 AM
+    end: new Date(2025, 0, 30, 8, 45, 0),   // January 30, 2025, 8:45 AM
   },
   {
     title: "Biology",
     allDay: false,
-    start: new Date(2024, 7, 14, 10, 0),
-    end: new Date(2024, 7, 14, 10, 45),
+    start: new Date(2025, 0, 30, 10, 0, 0), // January 30, 2025, 10:00 AM
+    end: new Date(2025, 0, 30, 10, 45, 0),  // January 30, 2025, 10:45 AM
   },
-
   {
     title: "Chemistry",
     allDay: false,
-    start: new Date(2024, 7, 14, 13, 0),
-    end: new Date(2024, 7, 14, 13, 45),
+    start: new Date(2025, 0, 30, 13, 0, 0), // January 30, 2025, 1:00 PM
+    end: new Date(2025, 0, 30, 13, 45, 0),  // January 30, 2025, 1:45 PM
   },
   {
     title: "History",
     allDay: false,
-    start: new Date(2024, 7, 14, 14, 0),
-    end: new Date(2024, 7, 13, 14, 45),
+    start: new Date(2025, 0, 30, 14, 0, 0), // January 30, 2025, 2:00 PM
+    end: new Date(2025, 0, 30, 14, 45, 0),  // January 30, 2025, 2:45 PM
   },
   {
     title: "English",
     allDay: false,
-    start: new Date(2024, 7, 15, 9, 0),
-    end: new Date(2024, 7, 15, 9, 45),
+    start: new Date(2025, 0, 31, 9, 0, 0),  // January 31, 2025, 9:00 AM
+    end: new Date(2025, 0, 31, 9, 45, 0),   // January 31, 2025, 9:45 AM
   },
   {
     title: "Biology",
     allDay: false,
-    start: new Date(2024, 7, 15, 10, 0),
-    end: new Date(2024, 7, 15, 10, 45),
+    start: new Date(2025, 0, 31, 10, 0, 0), // January 31, 2025, 10:00 AM
+    end: new Date(2025, 0, 31, 10, 45, 0),  // January 31, 2025, 10:45 AM
   },
   {
     title: "Physics",
     allDay: false,
-    start: new Date(2024, 7, 15, 11, 0),
-    end: new Date(2024, 7, 15, 11, 45),
-  },
-
-  {
-    title: "History",
-    allDay: false,
-    start: new Date(2024, 7, 15, 14, 0),
-    end: new Date(2024, 7, 15, 14, 45),
-  },
-  {
-    title: "Math",
-    allDay: false,
-    start: new Date(2024, 7, 16, 8, 0),
-    end: new Date(2024, 7, 16, 8, 45),
-  },
-  {
-    title: "English",
-    allDay: false,
-    start: new Date(2024, 7, 16, 9, 0),
-    end: new Date(2024, 7, 16, 9, 45),
-  },
-
-  {
-    title: "Physics",
-    allDay: false,
-    start: new Date(2024, 7, 16, 11, 0),
-    end: new Date(2024, 7, 16, 11, 45),
-  },
-  {
-    title: "Chemistry",
-    allDay: false,
-    start: new Date(2024, 7, 16, 13, 0),
-    end: new Date(2024, 7, 16, 13, 45),
+    start: new Date(2025, 0, 31, 11, 0, 0), // January 31, 2025, 11:00 AM
+    end: new Date(2025, 0, 31, 11, 45, 0),  // January 31, 2025, 11:45 AM
   },
   {
     title: "History",
     allDay: false,
-    start: new Date(2024, 7, 16, 14, 0),
-    end: new Date(2024, 7, 16, 14, 45),
+    start: new Date(2025, 0, 31, 14, 0, 0), // January 31, 2025, 2:00 PM
+    end: new Date(2025, 0, 31, 14, 45, 0),  // January 31, 2025, 2:45 PM
   },
 ];
