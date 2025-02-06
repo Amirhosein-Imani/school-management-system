@@ -1,5 +1,6 @@
 import Announcements from "@/components/Announcements"
 import BigCalendar from "@/components/BigCalendar"
+import FormModal from "@/components/FormModal"
 import Performance from "@/components/Performance"
 import Image from "next/image"
 import Link from "next/link"
@@ -29,9 +30,23 @@ const SingleTeacherPage = () => {
                     </div>
 
                     <div className="w-2/3 flex flex-col justify-between gap-4">
-                    
-                        <h1 className="text-xl font-semibold">Amirhosein Imani</h1>
 
+                        <div className="flex items-center gap-4">
+
+                            <h1 className="text-xl font-semibold">Amirhosein Imani</h1>
+
+                            <FormModal table="teacher" type="update" data={
+
+                                {
+
+                                    id:1 , username: "Amirhosein-Imani" , email: "imaniamirhosein2001@gmail.com" , password: "password" , firstName: "Amirhosein", lastName: "Imani" , phone: "09108726565" , address: "address , Tehran , Iran" , bloodType: "B+" , dateOfBirth: "2001-12-30" , sex: "male" , img: "/Amirhosein-Imani.png" ,
+
+                                }
+
+                            }/>
+
+                        </div>
+                    
                         <p className="text-sm text-gray-500">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, deleniti.</p>
 
                         <div className="flex items-center justify-between gap-2 flex-wrap text-xs font-medium">
@@ -40,7 +55,7 @@ const SingleTeacherPage = () => {
 
                                 <Image src="/blood.png" alt="" width={14} height={14} />
 
-                                <span>A+</span>
+                                <span>B+</span>
 
                             </div>
 
